@@ -44,7 +44,7 @@ public class TrainingReportGenerator {
                             csize  = fields[10];
                             
                             // Make copy of Template
-                            File source = new File("475-Template.pdf");
+                            File source = new File("Student-TR.pdf");
                             File dest;
                             if(mi.length() > 0) {
                                 dest = new File("475-" + last + "_" + first + "_" + mi + ".pdf");
